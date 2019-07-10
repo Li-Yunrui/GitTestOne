@@ -1,0 +1,15 @@
+entity Region {
+	ucid String,
+    sessionid String,
+	ani String,
+	dnis String,
+	serviceid String,
+	type Integer,
+	starttime LocalDate,
+	endtime LocalDate,
+	duration Integer,
+	asr String,
+	tts String,
+	intent String,
+	confidence Integer 
+}
